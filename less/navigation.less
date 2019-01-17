@@ -9,15 +9,37 @@
     align-items: center;
     border-bottom: 2px dashed silver;
 
+    @media @mobile {
+        flex-direction: column;
+    }
+
 
     h1 {
         padding: 20px 350px 20px 0;
+
+        @media @mobile {
+            padding: 0;
+        }
     }
 
-    a {
-        padding-right: 30px;
-        text-decoration: none;
-        font-size: 1.5rem;
-        color: @font-color;
+    span {
+        
+        @media @mobile {
+            padding: 10px 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        a {
+            padding-right: 30px;
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: @font-color;
+    
+            @media @mobile {
+                padding: 0;
+            }
+        }
     }
 }

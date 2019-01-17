@@ -176,14 +176,37 @@ img {
   align-items: center;
   border-bottom: 2px dashed silver;
 }
+@media (max-width: 400px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+}
 .nav-bar h1 {
   padding: 20px 350px 20px 0;
 }
-.nav-bar a {
+@media (max-width: 400px) {
+  .nav-bar h1 {
+    padding: 0;
+  }
+}
+@media (max-width: 400px) {
+  .nav-bar span {
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.nav-bar span a {
   padding-right: 30px;
   text-decoration: none;
   font-size: 1.5rem;
   color: #212529;
+}
+@media (max-width: 400px) {
+  .nav-bar span a {
+    padding: 0;
+  }
 }
 .footer {
   width: 100%;
