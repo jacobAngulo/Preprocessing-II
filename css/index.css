@@ -168,21 +168,21 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.top-nav {
+.nav-bar {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 2px dashed silver;
 }
-.top-nav h1 {
+.nav-bar h1 {
   padding: 20px 250px 20px 0;
 }
-.top-nav .nav-bar a {
+.nav-bar a {
   padding-right: 50px;
   text-decoration: none;
   font-size: 1.5rem;
-  color: black;
+  color: #212529;
 }
 .footer {
   width: 100%;
