@@ -1,9 +1,13 @@
 // Mixins in here
 
-.main-btn() {
+.main-btn(@height, @width, @font-size) {
+    display: flex;
     background: @eastern-blue;
-    color: silver;
+    color: @white;
     border-radius: 15px;
-    width: 100%;
-    height: 50px;
+    width: @width;
+    height: @height;
+    text-align: center;
+    align-items: center;
+    font-size: @font-size;
 }

@@ -2,44 +2,69 @@
 
 
 .nav-bar {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     border-bottom: 2px dashed silver;
+    padding: 20px 0;
 
-    @media @mobile {
-        flex-direction: column;
-    }
-
-
-    h1 {
-        padding: 20px 350px 20px 0;
+    div {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         @media @mobile {
-            padding: 0;
-        }
-    }
-
-    span {
-        
-        @media @mobile {
-            padding: 10px 0;
             width: 100%;
-            display: flex;
-            justify-content: space-around;
+            flex-direction: column;
         }
 
-        a {
-            padding-right: 30px;
-            text-decoration: none;
+        nav {
+            display: flex;
             font-size: 1.5rem;
-            color: @font-color;
-    
+            width: 60%;
+            justify-content: space-between;
+
             @media @mobile {
-                padding: 0;
+                padding-top: 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
             }
         }
     }
+
+    // @media @mobile {
+    //     flex-direction: column;
+    // }
+
+
+    // h1 {
+    //     padding: 20px 350px 20px 0;
+
+    //     @media @mobile {
+    //         padding: 0;
+    //     }
+    // }
+
+    // span {
+        
+    //     @media @mobile {
+    //         padding: 10px 0;
+    //         width: 100%;
+    //         display: flex;
+    //         justify-content: space-around;
+    //     }
+
+    //     a {
+    //         padding-right: 30px;
+    //         text-decoration: none;
+    //         font-size: 1.5rem;
+    //         color: @font-color;
+    
+    //         @media @mobile {
+    //             padding: 0;
+    //         }
+    //     }
+    // }
 }
