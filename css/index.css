@@ -179,7 +179,7 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .nav-bar div {
     width: 100%;
     flex-direction: column;
@@ -191,9 +191,10 @@ img {
   width: 60%;
   justify-content: space-between;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .nav-bar div nav {
     padding-top: 20px;
+    align-items: center;
   }
 }
 .nav-bar div nav a {
@@ -215,7 +216,7 @@ img {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .home {
     margin: 0 20px;
   }
@@ -235,7 +236,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .home .content-section {
     flex-direction: column;
   }
@@ -244,7 +245,7 @@ img {
   width: 48%;
   padding-right: 1%;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .home .content-section .text-content {
     width: 100%;
     padding: 0;
@@ -254,7 +255,7 @@ img {
   width: 48%;
   padding-left: 1%;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .home .content-section .img-content {
     width: 100%;
     padding: 0;
@@ -267,7 +268,7 @@ img {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .home .inverse-content {
     flex-direction: column-reverse;
   }
@@ -276,7 +277,7 @@ img {
   padding-left: 1%;
   padding-right: 0;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .home .inverse-content .text-content {
     padding: 0;
   }
@@ -285,7 +286,7 @@ img {
   padding-right: 1%;
   padding-left: 0;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .home .inverse-content .img-content {
     padding: 0;
   }
@@ -294,7 +295,7 @@ img {
   width: 75%;
   margin: 0 auto 30px;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .home .content-destination {
     width: 100%;
   }
@@ -308,7 +309,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .home .content-pick {
     flex-direction: column;
   }
@@ -317,7 +318,7 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
   .home .content-pick .destination {
     width: 100%;
   }
